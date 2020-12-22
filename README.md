@@ -27,7 +27,8 @@ Podstrona About posiada dwa kontenery:
 
 ## Description
 
-Zawiera 3 równe kontenery, każdy z nich posiada inne zdjecie z przypisanym wygenerowanym tekstem. Border kontener jest zmieniany poprzez użycie `@keyframes`
+Zawiera 3 równe kontenery, każdy z nich posiada inne zdjecie z przypisanym wygenerowanym tekstem. Border kontener jest zmieniany poprzez użycie `@keyframes` 
+
 ![description](.github/images/description.png)
 
 ## Gallery
