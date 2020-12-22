@@ -1,7 +1,5 @@
-@media (max-width:320px){
-    
-}
-@media (min-width:320px) and (max-width:480px){
+
+@media (min-width:0px) and (max-width:480px){
 
     .firstphoto{
         background-size: 100% 80%;
@@ -118,7 +116,7 @@
 @media (min-width:480px) and (max-width:768px){
  
     .firstphoto{
-        background-size: 100% 80%;
+        background-size: 100% 75%;
     }
     nav>ul>li{
         width: 10vh;
@@ -199,7 +197,9 @@
         'four'
         'five';
     }
- 
+    #contact{
+        margin-top: 10vh;
+    }
     .form{
         height: 60vh;
         clear: both;
@@ -222,7 +222,10 @@
     }
 
 }
-@media (min-width:768px) and (max-width:899px){
+@media (min-width:768px) and (max-width:949px){
+    .firstphoto{
+        background-size: 100% 70%;
+    }
     nav>ul>li{
         width: 10vh;
     }
@@ -240,6 +243,7 @@
     }
   
     .rightBoxes{
+        height:45%;
         padding:0vh;
         display: block;
     }
@@ -279,7 +283,7 @@
     }
 
     #description .descriptionBoxes .descriptionImgAndP > p{
-        font-size:2.3vh;
+        font-size:2.1vh;
         width: 80%;
     }
     #gallery{
@@ -317,19 +321,19 @@
         margin-top: 80vh;
     }
 }
-@media (min-width:900px) and (max-width:1024px){
+@media (min-width:950px) and (max-width:1024px){
     .leftBoxes{
        background-size: 100% 100%;
-       height: 50%;
+       height: 40%;
     }
     .rightBoxes{
         width: 44%;
     }
     .leftBoxes, .rightBoxes{
-        margin: 2.5vh;
+ 
     }
     #rightContent> p {
-        padding-top: 1vh;
+
         font-size: 1.9vh;
     }
     .descriptionImgAndP{
@@ -345,17 +349,21 @@
         width: 90%;
     }
     .form{
-        width: 60%;
+        width: 100%;
     }
     .contactBox > p{
-        font-size: 2.5vh;
+        font-size: 2vh;
    
     }
+    .contactBox > ul > li>a{
+        font-size: 2vh;
+    }
 }
-@media (min-width:1024px) and (max-width:1200px){
+
+@media (min-width:1025px) and (max-width:1200px){
     #rightContent> p {
         padding-top: 1vh;
-        font-size: 2.1vh;
+        font-size: 2vh;
     }
     .leftBoxes, .rightBoxes{
         margin: 3vh;
@@ -367,15 +375,13 @@
         width: 90%;
     }
     #description .descriptionBoxes .descriptionImgAndP > p{
-        font-size:2.8vh;
+        font-size:2.9vh;
     }
     .form{
         width: 60%;
     }
     .contactBox > p{
-        font-size: 2.7vh;
-        
-       
+        font-size: 2.7vh;      
     }
 
 }
@@ -391,7 +397,7 @@
         width: 90%;
     }
     #description .descriptionBoxes .descriptionImgAndP > p{
-        font-size:2.4vh;
+        font-size:2.9vh;
         width:80%;
     }
     .form{
@@ -399,5 +405,10 @@
     }
     input, textarea{
         display: block;
+    }
+}
+@media (min-width:1400px){
+    #contact{
+      
     }
 }
